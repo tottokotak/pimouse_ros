@@ -1,7 +1,8 @@
 #!/bin/bash -xve
 
-sudo apt update
-sudo apt install python
+sudo add-apt-repository ppa:jonathonf/python-2.7
+sudo apt-get update
+sudo apt-get install python2.7
 
 #required packages
 pip install catkin_pkg
