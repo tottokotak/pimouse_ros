@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install python2.7
 
 #required packages
-pip install catkin_pkg
+sudo ip install catkin_pkg
 pip install empy
 pip install pyyaml
 pip install rospkg
