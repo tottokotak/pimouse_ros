@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
-apt update
-apt upgrade
+sudo apt update
+sudo apt upgrade
 
 #required packages
 pip install catkin_pkg
