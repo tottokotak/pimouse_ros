@@ -1,5 +1,8 @@
 #!/bin/bash -xve
 
+apt update
+apt upgrade
+
 #required packages
 pip install catkin_pkg
 pip install empy
