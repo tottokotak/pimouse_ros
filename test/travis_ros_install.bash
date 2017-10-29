@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
 sudo apt update
-sudo apt install python2
+sudo apt install python
 
 #required packages
 pip install catkin_pkg
